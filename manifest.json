@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SLRCLUB 작성자 안보기",
+  "version": "1.0.0",
+  "description": "data-xuid로 작성자를 차단하고 게시글 행을 제거합니다.",
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["*://slrclub.com/*", "*://*.slrclub.com/*"],
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "run_at": "document_idle"
+  }],
+  "action": {"default_title": "SLRCLUB 차단 관리", "default_popup": "popup.html"}
+}

@@ -1,0 +1,7 @@
+.slr-xuid-block {
+  margin-left: 5px; padding: 2px 4px; border: 1px solid #ccc;
+  border-radius: 3px; background: #fff; color: #666;
+  font: 10px/1.4 sans-serif; cursor: pointer;
+}
+.slr-xuid-block:hover { color: #b42318; border-color: #b42318; }
+.slr-xuid-block:disabled { opacity: .5; }
